@@ -3,8 +3,8 @@ from fastapi.responses import JSONResponse
 import pandas as pd
 import joblib
 import numpy as np
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing import image
+from keras.models import load_model
+from keras.preprocessing import image
 import io
 
 app = FastAPI()

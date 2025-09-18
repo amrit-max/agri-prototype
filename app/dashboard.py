@@ -6,8 +6,8 @@ import numpy as np
 from PIL import Image
 import io
 import joblib
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing import image
+from keras.models import load_model
+from keras.preprocessing import image
 
 
 @st.cache_resource
